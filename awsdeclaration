@@ -11,8 +11,8 @@
             "class": "Tenant",
             "AWS_WAF": {
                 "class": "Application",
-                "template": "http",
-                "serviceMain": {
+                "template": "generic",
+                "secure_webapp": {
                     "class": "Service_HTTP",
                     "virtualAddresses": [
                         "10.3.0.56"
